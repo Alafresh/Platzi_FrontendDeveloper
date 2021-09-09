@@ -1,7 +1,7 @@
 body{
     margin: 0px;
-    background-color: #3DB2FF;
     font-family: 'Rubik', sans-serif;
+    background: linear-gradient(#3DB2FF, #FF2442);
 }
 .header {
     width: 100%;
@@ -81,6 +81,13 @@ body{
 ::placeholder {
     color: white;
 }
+.new__releases {
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    padding-left: 30px;
+    margin-left: 92px;
+}
 .carousel {
     width: 100%;
     overflow: scroll;
@@ -151,4 +158,21 @@ body{
 }
 .carousel-item__details--subtitle {
     margin: 0px;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    width: 100%;
+}
+.footer a {
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    padding-left: 30px;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
 }
